@@ -17,6 +17,7 @@ public class C04_StringBuilderdeStringMethodlari {
          */
 
         StringBuilder sb1= new StringBuilder("Java Candir");
+
         StringBuilder sb2 = new StringBuilder("Java candir");
 
         sb1.substring(5);

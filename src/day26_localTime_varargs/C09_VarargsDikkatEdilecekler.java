@@ -9,6 +9,7 @@ public class C09_VarargsDikkatEdilecekler {
         // sonra toplam ile ilk sayiyi carpip yazdirsin
         topla(2,3,4,5,6,7);
 
+
         /* Dikkat edilecekler 2 -
             son sayiyi ayirmak istesek ?
            varargs eklenen tum parametreleri kendisi almak ister

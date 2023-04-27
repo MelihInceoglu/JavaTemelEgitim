@@ -13,6 +13,7 @@ public class C06_PeriodOfTime {
         System.out.println(Period.between(dogumTarihi, bugun)); // P43Y2M8D
 
         System.out.println("Yas : "+Period.between(dogumTarihi,bugun).getYears()); // 43
+
         System.out.println("Yas : "+Period.between(dogumTarihi,bugun).getDays()); // 8
 
     }

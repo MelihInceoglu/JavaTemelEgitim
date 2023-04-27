@@ -34,13 +34,17 @@ public class C05_DateTimeFormatter {
          */
 
         LocalDateTime ldt = LocalDateTime.now();
+
         System.out.println(ldt); // 2023-03-09T20:02:44.016827
 
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("d / MMM / yyyy");
 
+
         System.out.println(ldt.format(dtf)); // 9 / Mar / 2023
 
+
         DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("dd.MM.yy");
+
 
         System.out.println(ldt.format(dtf2)); //  09.03.23
 

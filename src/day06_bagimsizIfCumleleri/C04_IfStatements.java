@@ -10,6 +10,7 @@ public class C04_IfStatements {
         //         50 veya daha buyukse ”Sinifi Gectin”,
         //         50’den kucukse “Maalesef kaldin” yazdirin.
 
+
         /*
             if statements'da sart parantezinden sonra {} kullanmazsak
             Java ilk ; ' e kadar olan kismi if body olarak kabul eder

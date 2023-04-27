@@ -28,6 +28,7 @@ public class C02_isAsal {
         }
 
         if (sayi == 2){
+
             return true;
         }else if (flag==0){
             return true;

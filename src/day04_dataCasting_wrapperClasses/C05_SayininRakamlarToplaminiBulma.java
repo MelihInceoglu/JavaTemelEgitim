@@ -9,10 +9,14 @@ public class C05_SayininRakamlarToplaminiBulma {
         // Kullanicidan 3 basamakli bir sayi alin
         // ve sayinin rakamlar toplamini yazdirin
 
+
+
+
         Scanner scan= new Scanner(System.in);
         System.out.println("Lutfen 3 basamakli pozitif bir tamsayi giriniz");
 
         int girilenSayi= scan.nextInt(); // 135
+
 
         int rakam= girilenSayi % 10;
 

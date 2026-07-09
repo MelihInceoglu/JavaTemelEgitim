@@ -22,5 +22,17 @@ public class C01_VariableOlusturmaVeKullanma {
 
         System.out.println(sayi); // 80
 
+
+
+        int x;
+
+        x= 25;
+
+        System.out.println(x);
+
+        x= 3* x +10; // 85
+
+        System.out.println(x);
+
     }
 }

@@ -11,20 +11,39 @@ public class C01_Scanner {
         //		Yasiniz : 44
         //		Kaydiniz basariyla tamamlanmistir.
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("İsminizi giriniz");
+        String isim= scan.next();
 
-        Scanner scan= new Scanner(System.in);
+        Scanner soyisim=new Scanner(System.in);
+        System.out.println("Soyisminiz giriniz");
 
-        System.out.println("Lutfen isminizi giriniz");
+        String soy= scan.next();
+        Scanner yas = new Scanner(System.in);
+        System.out.println("Yaşınızı giriniz");
 
-        String isim = scan.nextLine();
+        int yil= scan.nextInt();
 
-        System.out.println("Lutfen soyisminizi yaziniz");
+        System.out.println("Kyadınızı başıryla tamamlanmıştır");
 
-        String soyisim= scan.nextLine();
 
-        System.out.println("Lutfen yasinizi giriniz");
 
-        double yas= scan.nextDouble();
+
+
+
+       // Scanner scan= new Scanner(System.in);
+//
+       // System.out.println("Lutfen isminizi giriniz");
+//
+       // String isim = scan.nextLine();
+//
+       // System.out.println("Lutfen soyisminizi yaziniz");
+//
+       // String soyisim= scan.nextLine();
+//
+       // System.out.println("Lutfen yasinizi giriniz");
+//
+       // double yas= scan.nextDouble();
 
         /*
         System.out.println("Isminiz : " + isim);
@@ -52,15 +71,15 @@ public class C01_Scanner {
 
          */
 
-        System.out.println("Isminiz : " + isim+
-                            "\nSoyisminiz : " + soyisim+
-                            "\nYasiniz : " + yas+
-                            "\nKaydiniz basariyla tamamlanmistir");
-
-        /*
-            Tek bir System.out.println() ile birden fazla satir yazdirmak isterseniz
-            String bir ifadenin icinde istedigimiz yere \n yazabilirsiniz
-         */
+        //System.out.println("Isminiz : " + isim+
+        //                    "\nSoyisminiz : " + soyisim+
+        //                    "\nYasiniz : " + yas+
+        //                    "\nKaydiniz basariyla tamamlanmistir");
+//
+        ///*
+        //    Tek bir System.out.println() ile birden fazla satir yazdirmak isterseniz
+        //    String bir ifadenin icinde istedigimiz yere \n yazabilirsiniz
+      //   */
 
     }
 }

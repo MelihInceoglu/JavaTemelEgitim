@@ -4,7 +4,7 @@ public class C02_DataTurleri {
 
     public static void main(String[] args) {
 
-        char ilkHarf= '8'; // Tek tirnak icinde tek karakter(harf,sayi,ozel karakter...)
+        char ilkHarf= '3'; // Tek tirnak icinde tek karakter(harf,sayi,ozel karakter...)
 
 
         byte ogrYasi1=15; // en dogru kullanim bu olur, hafiza kullanimini optimize etmek icin bu yeterlidir

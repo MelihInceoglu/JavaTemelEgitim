@@ -17,6 +17,22 @@ public class C02_Variables {
 
         int bakiye=0;
 
+        String Melih = "Beşiktaş";
+
+        System.out.println(Melih);
+
+        int a = 32;
+        int b= 32;
+
+
+
+        int melih = 88;
+
+        System.out.println(melih);
+
+
+        System.out.println(a);
+
 
 
         bakiye=200;
